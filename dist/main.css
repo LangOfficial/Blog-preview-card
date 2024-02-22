@@ -1,0 +1,72 @@
+@import url("https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Figtree";
+}
+
+button {
+  font-family: "Figtree";
+}
+
+body {
+  background-color: hsl(47, 88%, 63%);
+}
+
+.container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: hsl(0, 0%, 100%);
+  border: 2px solid hsl(0, 0%, 7%);
+  box-shadow: 8px 8px;
+  padding: 1.5rem;
+  border-radius: 1rem;
+  background-size: contain;
+  max-width: 24.3em;
+}
+
+.course-img {
+  border-radius: 0.5em;
+}
+
+.learning-button {
+  padding: 0.5em 0.8em;
+  color: hsl(0, 0%, 7%);
+  font-weight: 900;
+  background-color: hsl(47, 88%, 63%);
+  border: none;
+  border-radius: 0.4em;
+  margin-bottom: 0.8em;
+}
+
+.title {
+  font-weight: 900;
+}
+
+.description {
+  color: hsl(0, 0%, 50%);
+  line-height: 1.5em;
+  margin-bottom: 1.5em;
+}
+
+.author-container {
+  display: flex;
+  align-items: center;
+}
+.author-container .author-icon {
+  width: 2.5em;
+  margin-right: 0.7em;
+}
+.author-container .author-name {
+  font-weight: 900;
+}
+
+.standard-margin-bottom {
+  margin-bottom: 1em;
+}

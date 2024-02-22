@@ -1,0 +1,70 @@
+//base
+@import 'base';
+
+// colors
+@import 'variables';
+
+body {
+  background-color: $primary;
+}
+
+// main content
+.container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: $neutral-100;
+  border: 2px solid $neutral-900;
+  box-shadow: 8px 8px;
+  padding: 1.5rem;
+  border-radius: 1rem;
+  background-size: contain;
+  max-width: 24.3em;
+}
+
+.course-img {
+  border-radius: .5em;
+}
+
+.learning-button {
+  padding: .5em .8em;
+  color: $neutral-900;
+  font-weight: 900;
+  background-color: $primary;
+  border: none;
+  border-radius: .4em;
+  margin-bottom: .8em;
+}
+
+.publish-date {
+}
+
+.title {
+  font-weight: 900;
+}
+
+.description {
+  color: $neutral-400;
+  line-height: 1.5em;
+  margin-bottom: 1.5em;
+}
+
+.author-container {
+  display: flex;
+  align-items: center;
+
+  .author-icon {
+    width: 2.5em; 
+    margin-right: .7em;
+  }
+
+  .author-name {
+    font-weight: 900;
+  }
+}
+
+.standard-margin-bottom {
+  margin-bottom: 1em;
+}
+
